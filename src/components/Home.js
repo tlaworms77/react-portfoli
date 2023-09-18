@@ -23,7 +23,7 @@ export default function Home(props) {
           }}
         >
           <div style={{ color: 'white' }}>
-            <div style={{ fontSize: '50px', fontWeight: '600', marginBottom: '20px' }}>반갑습니다!</div>
+            <div style={{ fontSize: '50px', fontWeight: '600', marginBottom: '20px' }}>반갑습니다!!</div>
             <div className='typewriter'>
               <TypewriterComponent
                 options={{
