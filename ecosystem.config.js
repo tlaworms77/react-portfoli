@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'portfoli',
+      name: 'developer-portfolio',
       script: 'index.js',
       watch: '.',
     },

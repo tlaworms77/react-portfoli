@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Portfolio from './views/Portfolio';
-import Draw from './views/Draw/Draw';
+import DrawLayout from './views/Draw/DrawLayout';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Portfolio />} />
-          <Route path='/draw' element={<Draw />} />
+          <Route path='/draw' element={<DrawLayout />} />
         </Routes>
       </BrowserRouter>
     </>
